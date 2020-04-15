@@ -1,11 +1,11 @@
 {
-  "name": "@learnlerna/shared",
+  "name": "@learnlerna/core",
   "version": "1.0.2-alpha.0",
   "description": "> TODO: description",
   "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
   "homepage": "https://github.com/gabeszrozsa/learnlerna#readme",
   "license": "MIT",
-  "main": "src/shared.js",
+  "main": "src/core.js",
   "directories": {
     "src": "src",
     "test": "__tests__"
