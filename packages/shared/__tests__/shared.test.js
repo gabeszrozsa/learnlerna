@@ -2,6 +2,6 @@
 
 const shared = require('..');
 
-describe('shared', () => {
+describe('@learnlerna/shared', () => {
     it('needs tests');
 });

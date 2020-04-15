@@ -1,5 +1,5 @@
 {
-  "name": "shared",
+  "name": "@learnlerna/shared",
   "version": "1.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gabeszrozsa/learnlerna.git"
@@ -22,6 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/gabeszrozsa/learnlerna/issues"
-  },
-  "gitHead": "21251ce4cec0dcb6059254f7fafa0a66e9f94e37"
+  }
 }
