@@ -1,6 +1,6 @@
 {
   "name": "@learnlerna/nest-consumer",
-  "version": "1.0.4-alpha.0",
+  "version": "1.0.5-alpha.0",
   "description": "> TODO: description",
   "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
   "homepage": "https://github.com/gabeszrozsa/learnlerna#readme",
@@ -29,7 +29,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@learnlerna/shared": "^1.0.4-alpha.0",
+    "@learnlerna/shared": "^1.0.5-alpha.0",
     "@nestjs/common": "^7.0.0",
     "@nestjs/core": "^7.0.0",
     "@nestjs/platform-express": "^7.0.0",

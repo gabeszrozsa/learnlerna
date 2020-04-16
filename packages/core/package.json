@@ -1,6 +1,6 @@
 {
   "name": "@learnlerna/core",
-  "version": "1.0.4-alpha.0",
+  "version": "1.0.5-alpha.0",
   "description": "> TODO: description",
   "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
   "homepage": "https://github.com/gabeszrozsa/learnlerna#readme",
@@ -29,6 +29,6 @@
     "url": "https://github.com/gabeszrozsa/learnlerna/issues"
   },
   "dependencies": {
-    "@learnlerna/shared": "^1.0.4-alpha.0"
+    "@learnlerna/shared": "^1.0.5-alpha.0"
   }
 }
