@@ -1,3 +1,3 @@
 export default function () {
-  console.log("hello shared");
+  console.log("na shared");
 }

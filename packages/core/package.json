@@ -5,6 +5,7 @@
   "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
   "homepage": "https://github.com/gabeszrozsa/learnlerna#readme",
   "license": "MIT",
+  "private": true,
   "main": "src/core.js",
   "directories": {
     "src": "src",
@@ -21,9 +22,13 @@
     "url": "git+https://github.com/gabeszrozsa/learnlerna.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node src/core.js"
   },
   "bugs": {
     "url": "https://github.com/gabeszrozsa/learnlerna/issues"
+  },
+  "dependencies": {
+    "@learnlerna/shared": "^1.0.4-alpha.0"
   }
 }

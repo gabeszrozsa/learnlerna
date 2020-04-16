@@ -1,7 +1,3 @@
-'use strict';
+const shared = require("@learnlerna/shared");
 
-module.exports = core;
-
-function core() {
-    // TODO
-}
+shared.default();
