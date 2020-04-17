@@ -1,0 +1,24 @@
+{
+  "name": "@learn-lerna/admin",
+  "version": "1.0.6-alpha.0",
+  "private": true,
+  "description": "> TODO: description",
+  "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
+  "homepage": "https://github.com/gabeszrozsa/learnlerna#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabeszrozsa/learnlerna.git"
+  },
+  "scripts": {
+    "heroku-prebuild": "(cd admin-server && yarn install); (cd admin-web && yarn install)",
+    "heroku-postbuild": "(cd admin-server && yarn build); (cd admin-web && yarn build)",
+    "start": "cd admin-server && yarn start"
+  },
+  "bugs": {
+    "url": "https://github.com/gabeszrozsa/learnlerna/issues"
+  }
+}
