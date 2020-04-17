@@ -1,0 +1,44 @@
+{
+  "name": "@learnlerna/admin-server",
+  "version": "1.0.6-alpha.0",
+  "description": "> TODO: description",
+  "author": "Gabesz Rozsa <gabesz.rozsa@gmail.com>",
+  "homepage": "https://github.com/gabeszrozsa/learnlerna#readme",
+  "license": "MIT",
+  "main": "src/admin-server.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabeszrozsa/learnlerna.git"
+  },
+  "scripts": {
+    "dev": "nodemon --delay 500ms --inspect=9229 -r dotenv/config --exec babel-node src/admin-server.js ",
+    "build": "rm -rf build; babel src -d build --source-maps",
+    "start": "node build/admin-server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/gabeszrozsa/learnlerna/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1"
+  }
+}

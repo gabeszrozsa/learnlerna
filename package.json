@@ -6,9 +6,13 @@
     "lerna": "^3.20.2",
     "typescript": "^3.8.3"
   },
+  "engines": {
+    "node": "12.16.1"
+  },
   "scripts": {
     "publish": "lerna run build && lerna publish",
     "dev": "lerna run dev",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "start": "cd packages/admin-server && yarn start"
   }
 }

@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@learnlerna/shared@^1.0.4-alpha.0":
-  version "1.0.4-alpha.0"
-  resolved "https://registry.yarnpkg.com/@learnlerna/shared/-/shared-1.0.4-alpha.0.tgz#9269708718d5d4e26227bc18337186cfd4a0dabf"
-  integrity sha512-PVO4IV4e9uN1wh+xos/ZMEuDxz+nAKAbTYkmr+WxQj1wse3KnRhChxNe3XIwzoiMWU9tomwuorFTYknN+nLbzg==
+"@learnlerna/shared@^1.0.6-alpha.0":
+  version "1.0.6-alpha.0"
+  resolved "https://registry.yarnpkg.com/@learnlerna/shared/-/shared-1.0.6-alpha.0.tgz#10c143e16a226e53ae6e83e8c36f736d988a44e5"
+  integrity sha512-S6QE4AzRSfPMuVxHIF3RTbEW8CvM0IT6occRrKhJlVD+O9jw8Yi7khaTreF0s5hnhbfQCUSjjQPRTHjIxrf59g==
