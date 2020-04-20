@@ -1,1 +1,1 @@
-web: (cd ./packages/admin-server && yarn build); (cd ./packages/admin-web && yarn build)
+web: lerna exec --scope '@learnlerna/admin-*' yarn install

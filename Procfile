@@ -1,1 +1,0 @@
-web: lerna exec --scope '@learnlerna/admin-*' yarn install
