@@ -1,8 +1,8 @@
 {
   "parallel": true,
   "stream": true,
-  "packages": [
-    "packages/*"
-  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
   "version": "1.1.0"
 }

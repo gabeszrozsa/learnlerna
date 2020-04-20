@@ -1,12 +1,15 @@
 import bodyParser from "body-parser";
 import compression from "compression";
 import express from "express";
+import shared from "@learnlerna/shared";
 
 const app = express();
 
 app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+shared();
 
 if (process.env.NODE_ENV === "production") {
   const frontendBuildDir = "../admin-web/build";

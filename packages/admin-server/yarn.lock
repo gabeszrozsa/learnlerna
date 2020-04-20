@@ -794,6 +794,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@learnlerna/shared@^1.0.6-alpha.0":
+  version "1.0.6-alpha.0"
+  resolved "https://registry.yarnpkg.com/@learnlerna/shared/-/shared-1.0.6-alpha.0.tgz#10c143e16a226e53ae6e83e8c36f736d988a44e5"
+  integrity sha512-S6QE4AzRSfPMuVxHIF3RTbEW8CvM0IT6occRrKhJlVD+O9jw8Yi7khaTreF0s5hnhbfQCUSjjQPRTHjIxrf59g==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"

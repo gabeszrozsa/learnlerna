@@ -1,3 +1,3 @@
 export default function () {
-  console.log("na shared");
+  console.log("cross shared");
 }

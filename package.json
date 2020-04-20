@@ -15,5 +15,8 @@
     "dev": "lerna run dev",
     "build": "lerna run build",
     "start": "cd packages/admin-server && yarn start"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
