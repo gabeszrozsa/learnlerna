@@ -13,11 +13,15 @@
   "scripts": {
     "publish": "lerna run build && lerna publish",
     "dev": "lerna run dev",
-    "install": "lerna exec --scope '@learnlerna/admin-*' yarn install",
     "build": "lerna run build",
     "start": "cd packages/admin-server && yarn start"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "packages/*"
+    ]
+  }
 }
