@@ -1,7 +1,6 @@
 {
   "name": "root",
   "version": "0.1.0",
-  "private": true,
   "devDependencies": {
     "@types/node": "^13.11.1",
     "lerna": "^3.20.2",
@@ -14,14 +13,11 @@
     "publish": "lerna run build && lerna publish",
     "dev": "lerna run dev",
     "build": "lerna run build",
-    "start": "cd packages/admin-server && yarn start"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "packages/*"
-    ]
+    "start": "yarn run scope:serve",
+    "postinstall": "yarn run scope:install",
+    "heroku-postbuild": "yarn run scope:build",
+    "scope:install": "lerna exec --scope '@learnlerna/admin-*' yarn install",
+    "scope:build": "lerna run --scope '@learnlerna/admin-*' build",
+    "scope:serve": "lerna run --scope '@learnlerna/admin-*' serve"
   }
 }
