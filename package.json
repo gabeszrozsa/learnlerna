@@ -15,9 +15,9 @@
     "start": "yarn run scope:serve",
     "postinstall": "yarn run scope:install",
     "heroku-postbuild": "yarn run scope:build",
-    "scope:install": "lerna exec --scope '@learnlerna/admin-*' yarn install",
-    "scope:build": "lerna run --scope '@learnlerna/admin-*' build",
-    "scope:serve": "lerna run --scope '@learnlerna/admin-*' serve"
+    "scope:install": "lerna exec --scope $SCOPE yarn install",
+    "scope:build": "lerna run --scope $SCOPE build",
+    "scope:serve": "lerna run --scope $SCOPE serve"
   },
   "dependencies": {
     "lerna": "^3.20.2"
